@@ -6,6 +6,7 @@ sub_list = open("wordlist.txt").read()
 directories = sub_list.splitlines()
 
 for dir in directories:
+    #Change the URL.
     dir_enum = "https://lautarovculic.com/" + dir
     r = requests.get(dir_enum)
     if r.status_code==404: 
