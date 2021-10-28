@@ -1,3 +1,8 @@
+print("> pyDirb  Lautaro Villarreal Culic' <")
+print("-------------------------------------")
+print("||||| https://lautarovculic.com |||||")
+print("-------------------------------------")
+
 import requests 
 import sys 
 
